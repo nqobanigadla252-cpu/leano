@@ -1,0 +1,5 @@
+import type { Metadata } from "next"
+import { SiteHeader } from "@/components/storefront/storefront"
+
+export const metadata: Metadata = { title: "Contact us | Leano Distributions", description: "Get in touch with the Leano team." }
+export default function ContactPage() { return <><SiteHeader /><main className="info-page contact-page"><p className="eyebrow">WE’RE RIGHT HERE</p><h1>Let&apos;s <em>talk.</em></h1><p className="info-lead">Questions, kind words, or a hand choosing? We’d love to hear from you.</p><div className="contact-cards"><a href="mailto:hello@leanodistributions.co.za"><span>Email</span><strong>hello@leanodistributions.co.za</strong><small>We’ll get back to you soon.</small></a><a href="https://wa.me/27000000000" target="_blank" rel="noreferrer"><span>WhatsApp</span><strong>Start a conversation <span aria-hidden="true">↗</span></strong><small>Monday – Friday, 9 to 5.</small></a></div><p className="contact-footnote">For now, orders and delivery arrangements are confirmed directly with our team. We appreciate your patience while we make shopping with Leano even easier.</p></main></> }

@@ -1,0 +1,5 @@
+import type { Metadata } from "next"
+import { SiteHeader } from "@/components/storefront/storefront"
+
+export const metadata: Metadata = { title: "Delivery & returns | Leano Distributions", description: "How delivery and returns work at Leano." }
+export default function DeliveryPage() { return <><SiteHeader /><main className="info-page"><p className="eyebrow">THE PRACTICAL LITTLE DETAILS</p><h1>Delivery &<br /><em>returns.</em></h1><div className="info-story"><h2>Coming home to you</h2><p>We offer free delivery on orders over R500. Delivery costs and timing depend on your area and will be confirmed with your order on WhatsApp. We’ll keep you in the loop from the moment your order is confirmed.</p><h2>If something isn’t quite right</h2><p>We want you to feel good about your order. If you have a concern, contact us within 7 days of receiving it. Items should be unused, in original packaging, and accompanied by proof of purchase. We’ll work with you on a suitable next step.</p><h2>A quick note</h2><p>Some products have specific care or safety guidance. Please review the supplier information included with the item before first use.</p></div></main></> }

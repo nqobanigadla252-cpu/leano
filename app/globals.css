@@ -5,32 +5,32 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #fbf8ff;
-  --foreground: #2a1b4d;
-  --paper: #ffffff;
-  --sand: #f1eaff;
-  --sand-deep: #e4d8fb;
-  --coral: #7c3aed;
-  --coral-deep: #6d28d9;
-  --sage: #ffd84d;
-  --ink-soft: #655a79;
-  --line: rgba(42, 27, 77, .13);
-  --shadow: 0 18px 50px rgba(70, 45, 120, .12);
+  --background: #071a33;
+  --foreground: #f3d58a;
+  --paper: #102746;
+  --sand: #152f50;
+  --sand-deep: #204064;
+  --coral: #e3bd62;
+  --coral-deep: #f0d48e;
+  --sage: #f3d58a;
+  --ink-soft: #d1bb83;
+  --line: rgba(243, 213, 138, .2);
+  --shadow: 0 18px 50px rgba(0, 0, 0, .25);
   --radius: .625rem;
-  color-scheme: light;
+  color-scheme: dark;
 }
 .dark {
-  --background: #171124;
-  --foreground: #f8f4ff;
-  --paper: #241b35;
-  --sand: #302643;
-  --sand-deep: #433359;
-  --coral: #b59aff;
-  --coral-deep: #c4b5fd;
-  --sage: #ffd84d;
-  --ink-soft: #c2b8d4;
-  --line: rgba(248, 244, 255, .15);
-  --shadow: 0 18px 50px rgba(0, 0, 0, .3);
+  --background: #071a33;
+  --foreground: #f3d58a;
+  --paper: #102746;
+  --sand: #152f50;
+  --sand-deep: #204064;
+  --coral: #e3bd62;
+  --coral-deep: #f0d48e;
+  --sage: #f3d58a;
+  --ink-soft: #d1bb83;
+  --line: rgba(243, 213, 138, .2);
+  --shadow: 0 18px 50px rgba(0, 0, 0, .25);
   color-scheme: dark;
 }
 @theme inline {

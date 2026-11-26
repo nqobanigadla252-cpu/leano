@@ -65,16 +65,16 @@ a { color: inherit; text-decoration: none; }
 button { color: inherit; }
 ::selection { background: rgba(167, 139, 250, .3); }
 :focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
-.brand-marquee { overflow: hidden; width: 100%; padding: 7px 0 9px; background: #c4b5fd; color: #2a1b4d; }
+.brand-marquee { overflow: hidden; width: 100%; padding: 7px 0 9px; background: #e3bd62; color: #071a33; }
 .brand-marquee-track { display: flex; width: max-content; animation: brand-scroll 34s linear infinite; will-change: transform; }
 .brand-marquee:hover .brand-marquee-track { animation-play-state: paused; }
 .brand-marquee-group { display: flex; align-items: center; flex: 0 0 auto; gap: clamp(16px, 3vw, 42px); padding: 0 clamp(16px, 3vw, 42px); white-space: nowrap; font-size: clamp(3rem, 10vw, 9rem); font-weight: 900; line-height: .98; letter-spacing: -.075em; }
-.brand-marquee-group svg { width: clamp(24px, 4vw, 52px); height: clamp(24px, 4vw, 52px); flex: 0 0 auto; color: #7c3aed; stroke-width: 1.5; }
-.brand-marquee-outline { color: transparent; -webkit-text-stroke: 1.5px #2a1b4d; }
+.brand-marquee-group svg { width: clamp(24px, 4vw, 52px); height: clamp(24px, 4vw, 52px); flex: 0 0 auto; color: #071a33; stroke-width: 1.5; }
+.brand-marquee-outline { color: transparent; -webkit-text-stroke: 1.5px #071a33; }
 @keyframes brand-scroll { to { transform: translateX(-50%); } }
-.footer-marquee { overflow: hidden; padding: 0 0 30px; color: #c4b5fd; font-size: clamp(2.5rem, 8vw, 7rem); font-weight: 900; letter-spacing: -.07em; line-height: 1; white-space: nowrap; }
-.footer-marquee svg { display: inline-block; width: .45em; height: .45em; margin: 0 .15em; vertical-align: .08em; color: #ffd84d; }
-.announcement { height: 34px; display: flex; align-items: center; justify-content: center; gap: 8px; background: #2a1b4d; color: #fbf8ff; font-size: 10px; letter-spacing: .11em; text-transform: uppercase; }
+.footer-marquee { overflow: hidden; padding: 0 0 30px; color: #e3bd62; font-size: clamp(2.5rem, 8vw, 7rem); font-weight: 900; letter-spacing: -.07em; line-height: 1; white-space: nowrap; }
+.footer-marquee svg { display: inline-block; width: .45em; height: .45em; margin: 0 .15em; vertical-align: .08em; color: #f3d58a; }
+.announcement { height: 34px; display: flex; align-items: center; justify-content: center; gap: 8px; background: #102746; color: #f3d58a; font-size: 10px; letter-spacing: .11em; text-transform: uppercase; }
 .announcement-dot { width: 5px; height: 5px; border-radius: 50%; background: #ffd84d; }
 .announcement-divider { opacity: .55; }
 .site-header { position: sticky; z-index: 30; top: 0; background: color-mix(in srgb, var(--background) 87%, transparent); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }

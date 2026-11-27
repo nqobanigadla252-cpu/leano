@@ -1,4 +1,9 @@
-pmOnFail: ignore
+packages:
+  - 'apps/*'
+
+allowBuilds:
+  esbuild: true
+  '@tailwindcss/oxide': true
 
 minimumReleaseAgeExclude:
   - '@next/*'
